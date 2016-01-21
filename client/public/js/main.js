@@ -1,5 +1,3 @@
-// add scripts
-
 $(document).on('ready', function() {
   getBeers();
 });
@@ -20,7 +18,7 @@ $('form').on('submit', function(e){
     // append 'Added' to DOM
     $('.message-section').show();
     $('#message').html('Added a new beer. Thanks!');
-    // get all penguins
+    // get all beers
     getBeers();
   });
 });
